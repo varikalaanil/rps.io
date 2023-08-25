@@ -1,0 +1,59 @@
+#container{
+    justify-content: center;
+    display: flex;
+}
+button{
+    width:100px;
+    height:100px;
+    margin: 90px 30px;
+    border-radius: 12px;
+}
+i{
+   font-size: 230%;
+   color:yellowgreen
+}
+#secondContainer{
+    display: flex;
+    margin-left: 42vw;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:216px;
+    height:100px;
+    background-color:white;
+}
+h3,h2{
+    margin:17px;
+    justify-self: center;
+}
+button#last{
+    width:50px;
+    height:50px;
+    margin-left: 48vw;
+}
+ #circle{
+    width:10px;
+    height:10px;
+    margin: auto auto;
+    border-radius: 50%;
+    background-color: red;
+}
+@media screen and(min-width:700px)and(max-width:930px){
+    button#last{
+         width:40vw
+    }
+}
+@media screen and(min-width:320px)and(max-width:380px){
+    #secondContainer{
+         width:20vw
+    }
+    button{
+        width:70px;
+        height:70px;
+    }
+    button#last{
+        width:25px;
+        height:25px;
+        margin-left: 25vw;
+    }
+
+}
